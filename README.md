@@ -17,8 +17,7 @@ Ao selecionar uma fila, os dados dessa fila serão exibidos na tela.
 
 Como utilizar a opção "Triagem"
 - Selecione a opção "Triagem" na barra lateral.
-- Selecione uma ou mais especialidades na lista de opções.
-  👨‍⚕️👩‍⚕️Os pacientes da(s) especialidade(s) selecionada(s) serão exibidos na tabela.
+- Selecione uma ou mais especialidades na lista de opções.👨‍⚕️👩‍⚕️Os pacientes da(s) especialidade(s) selecionada(s) serão exibidos na tabela.
 
 ## Requisitos
 Certifique-se de ter as seguintes bibliotecas instaladas:
