@@ -5,6 +5,15 @@ from streamlit_echarts import st_echarts
 
 info = '''Ao selecionar uma especialidade,
 todos os pacientes dessa especialidade vao aparecer'''
+
+st.set_page_config(
+    page_title="Flas de pacientes",
+    page_icon="🏥",
+    layout="wide",
+    initial_sidebar_state="collapsed",
+)
+
+
 st.title('🕒 Painel de controle de tempos do PA 🏥🚑')
 
 
@@ -104,6 +113,6 @@ if filas == '🏥 Todos':
     df_filtrado = df[df['Especialidades'].isin(options)]
     st.dataframe(df_filtrado)
 elif filas == '👨‍💻 Codigo':
-    with open('arquivo.txt', 'r') as f:
+    with open('arquivo.txt', 'r', encoding="utf-8") as f:
         codigo = f.read()
     st.code(codigo, language='python')
