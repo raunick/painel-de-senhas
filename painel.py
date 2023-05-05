@@ -5,6 +5,15 @@ from streamlit_echarts import st_echarts
 
 info = '''Ao selecionar uma especialidade,
 todos os pacientes dessa especialidade vao aparecer'''
+
+st.set_page_config(
+    page_title="Flas de pacientes",
+    page_icon="🏥",
+    layout="wide",
+    initial_sidebar_state="collapsed",
+)
+
+
 st.title('🕒 Painel de controle de tempos do PA 🏥🚑')
 
 
