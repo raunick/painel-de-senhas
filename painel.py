@@ -80,8 +80,8 @@ def grafico_velocimetro(d, key):
 
 filas = st.sidebar.selectbox(
     'Selecione uma fila:',
-    ('👥 Triagem', '💻 Cadastro',
-     '👨‍⚕️ Medico', '🏥 Todos', '👨‍💻 Codigo',))
+    (# '👥 Triagem', '💻 Cadastro', '👨‍⚕️ Medico',
+     '🏥 Todos', '👨‍💻 Codigo',))
 filas
 
 
